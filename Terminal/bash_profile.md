@@ -2,21 +2,21 @@
 ## Больше цвета
 
 <b>Вывод:</b>
-<pre>
+```bash
 $ export CLICOLOR=1 
-$ export LSCOLORS=ExFxBxDxCxegedabagacad 
-</pre>
+$ export LSCOLORS=ExFxBxDxCxegedabagacad
+```
 
 <b>GIT:</b>
-<pre>$ git config --global color.ui true</pre>
+```bash$ git config --global color.ui true</pre>```
 ## Больше информации
-<pre>
+```bash
 $ export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\] \[\033[33;1m\]\w\[\033[m\] (\$(git branch 2>/dev/null | grep '^*' | colrm 1 2)) \$  \n| => "
 $ export PS2="| => "
-</pre>
+```
 сделает
-<pre>
+```bash
 username@ ~/current_path (branch) $
 | => ...
-</pre>
+```
 
